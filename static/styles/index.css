@@ -1,0 +1,24 @@
+.headline {
+    font-family: Arial, SimHei, sans-serif;
+    font-size: 58px;
+    text-align: center;
+    margin: 25px auto 25px auto;
+}
+
+.canvas-button {
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    margin: 5px;
+    width: 30%;
+    color: dodgerblue !important;
+}
+
+article, main {
+    height: auto;
+    vertical-align: middle;
+}
+
+article {
+    display: inline;
+}

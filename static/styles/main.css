@@ -1,0 +1,111 @@
+@import "specialElements.css";
+@import "articleStyles.css";
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    background: #F6F6F6;
+    overflow: auto;
+}
+
+header {
+    height: 53px;
+    width: 100%;
+    margin: 0;
+    background: #FFFFFF;
+    display: inline-block;
+    overflow: hidden;
+    user-select: none;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+}
+
+.page-title {
+    display: inline-block;
+    height: 100%;
+}
+
+.page-title-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.page-title-logo{
+    height: 100%;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.page-title-text {
+    display: inline-block;
+    overflow: hidden;
+    color: royalblue;
+    height: auto;
+    font-size: 20px;
+    line-height: 52px;
+    margin: 0;
+}
+
+.page-nav {
+    display: inline-block;
+    line-height: 52px;
+    overflow: hidden;
+    float: right;
+    margin: 0 20px;
+}
+
+.page-nav-list {
+    display: inline;
+    padding: 0;
+    margin: 0 10px 0 0;
+    overflow: hidden;
+}
+
+.nav-element {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+footer {
+    background: #696969cc;
+    text-align: center;
+    height: 53px;
+    width: 100%;
+    margin: 4px 0 0;
+    overflow: hidden;
+}
+
+.bottom-paragraph {
+    margin: 0;
+    padding: 0;
+    line-height: 52px;
+    display: inline-block;
+    font-size: 13px;
+    color: beige;
+}
+
+main {
+    background-color: #FFFFFF;
+    width: 61%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    min-height: calc(100% - 114px);
+}
+
+article {
+    text-align: left;
+    padding: 10px 120px;
+    overflow: auto;
+    font-family: Arial, DengXian, SimSun ,sans-serif;
+}

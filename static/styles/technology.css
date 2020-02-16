@@ -1,0 +1,41 @@
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.headline {
+    text-align: center;
+    overflow: hidden;
+}
+
+.article-list-left, .article-list-right{
+    display: inline-block;
+    width: 47%;
+    vertical-align: top;
+}
+
+.article-list-right {
+    margin-left: 4%;
+}
+
+.article-list {
+    text-align: left;
+}
+
+.article-list-element {
+    margin: 12px 6px;
+}
+
+.article-list-element-link {
+    padding: 6px 4px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.article-list-element:visited {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+
+

@@ -1,0 +1,53 @@
+h1, h2, h3, h4, h5, h6, .article-center {
+    text-align: center;
+    margin: 5px auto;
+    font-family: Arial, SimHei, sans-serif;
+}
+
+code {
+    font-family: Consolas, monospace;
+}
+
+.article-left {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.article-right {
+    text-align: right;
+    margin-right: 40px;
+}
+
+article img {
+    display: inline-block;
+    width: 48%;
+}
+
+img.large-img {
+    display: block;
+    width: 70%;
+}
+
+img.exlarge-img {
+    display: block;
+    width: 95%;
+}
+
+img.small-img {
+    display: block;
+    width: 35%;
+}
+
+img.exsmall-img {
+    display: block;
+    width: 20%;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+figcaption {
+    text-align: center;
+    color: gray;
+}

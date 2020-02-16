@@ -1,0 +1,29 @@
+.ascii-text {
+    font-family: "Microsoft YaHei", sans-serif;
+}
+
+.link-no-line:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link-no-line:visited {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.split-line {
+    margin: 0 20px;
+    display: inline-block;
+    font-weight: bold;
+    user-select: none;
+}
+
+.title-text {
+    font-family: Arial, SimHei, sans-serif;
+}
+
+ul.none-list-point {
+    list-style: none;
+}
