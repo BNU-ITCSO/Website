@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/pages/<url1>/<url2>')
 def getPages(url1, url2):
     return render_template('pages/origin.html',
-                           title=En2ZhDictForPages(url2),
+                           title=En2ZhDictForPages[url2],
                            content='pages/{}/{}'.format(url1, url2))
 
 @app.route('/pages/<url>')
