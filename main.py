@@ -1,23 +1,18 @@
 from flask import Flask, render_template
+from server.En2ZhDict import *
 
 app = Flask(__name__)
 
 @app.route('/pages/<url1>/<url2>')
 def getPages(url1, url2):
     return render_template('pages/origin.html',
-                           title=url2[:url2.__len__()-5],
+                           title=En2ZhDictForPages(url2),
                            content='pages/{}/{}'.format(url1, url2))
 
 @app.route('/pages/<url>')
 def getRootPages(url):
-    en2zhDict = {
-        'introduction.html': '活动介绍',
-        'recruit.html': '招新计划',
-        'technology.html': '技术服务'
-    }
-
     return render_template('pages/origin.html',
-                           title=en2zhDict[url],
+                           title=En2ZhDictForRootPages[url],
                            content='pages/{}'.format(url))
 
 @app.route('/')
