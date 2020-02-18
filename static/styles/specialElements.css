@@ -16,8 +16,8 @@
 .split-line {
     margin: 0 20px;
     display: inline-block;
-    font-weight: bold;
     user-select: none;
+    font-size: large;
 }
 
 .title-text {
