@@ -5,7 +5,7 @@ En2ZhDictForRootPages = {
     }
 
 En2ZhDictForPages = {
-    'FF-install-and-versions.html':'Firefox安装与各个版本问题',
-    'FF-addons-install.html':'Firefox拓展安装方法',
+    'FF-install-and-versions.html': 'Firefox安装与各个版本问题',
+    'FF-addons-install.html': 'Firefox拓展安装方法',
     'FF-devtools-tutorial.html': 'Firefox开发者工具使用入门',
 }
