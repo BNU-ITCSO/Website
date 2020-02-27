@@ -1,7 +1,8 @@
 En2ZhDictForRootPages = {
         'introduction.html': '活动介绍',
         'recruit.html': '招新计划',
-        'technology.html': '技术服务'
+        'technology.html': '技术服务',
+        'valgrind.html': 'C语言查错'
     }
 
 En2ZhDictForPages = {
